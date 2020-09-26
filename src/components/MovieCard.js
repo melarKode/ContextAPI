@@ -11,7 +11,7 @@ export const MovieCard = ({movie, type}) => {
             ) : (
                 <div className="filler-poster"></div>
             )}
-
+            
             <MovieControls type={type} movie={movie}></MovieControls>
         </div>
     )
